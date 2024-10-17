@@ -52,7 +52,7 @@ int main() {
 }
 ```
 ## OUTPUT:
-![Uploading 8.png…]()
+![8](https://github.com/user-attachments/assets/1be423b9-684d-46d4-be6e-6509b73e9041)
 
 
 
