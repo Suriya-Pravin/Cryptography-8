@@ -1,5 +1,5 @@
 ### Date:
-# Ex-8:Implement:The AES Encryption and Decrption
+# Ex-8: Implement:The AES Encryption and Decrption
 ## Aim:
 To use Advanced Encryption Standard (AES) Algorithm for a practical application like URL Encryption.
 
@@ -16,10 +16,9 @@ It has a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits.
 AES operates on a 4 × 4 column-major order array of bytes, termed the state
 
 ## PROGRAM:
-```py
+```
 #include <stdio.h>
 #include <string.h>
-
 void xor_encrypt_decrypt(char *input, char *key) {
     int input_len = strlen(input);
     int key_len = strlen(key);
@@ -28,7 +27,6 @@ void xor_encrypt_decrypt(char *input, char *key) {
         input[i] = input[i] ^ key[i % key_len]; 
     }
 }
-
 int main() {
     char url[100];
     char key[100];
